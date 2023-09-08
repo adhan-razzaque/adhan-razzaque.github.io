@@ -29,7 +29,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: CDT # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -60,30 +60,33 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "I am a programmer that enjoys working in complex environments which require creative, critical thinking. I love to challenge myself when I make games by creating or using new technology and mediums."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/adhan-razzaque/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/adhan-razzaque"
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://generalred.itch.io/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/TheGeneralRed"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/adhan-razzaque/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/adhan-razzaque"
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://generalred.itch.io/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/TheGeneralRed"
 
 defaults:
   # _posts
