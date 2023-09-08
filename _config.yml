@@ -1,0 +1,6 @@
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+title: Adhan Razzaque's portfolio
+description: Bookmark this to keep an eye on my project updates!
+
+plugins:
+  - jekyll-include-cache
