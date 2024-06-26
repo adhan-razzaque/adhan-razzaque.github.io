@@ -1,1 +1,0 @@
-document.getElementsByName("obf-email1").forEach((element) => element.innerHTML="<n uers=\"znvygb:nquna.enmmndhr@tznvy.pbz\" pynff=\"vpba fglyr1 sn-fbyvq sn-rairybcr\" ery=absbyybj><fcna pynff=\"ynory\">Rznvy</fcna></n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
