@@ -26,368 +26,390 @@
 
   <body class="is-preload">
     <!-- Wrapper -->
-    <div id="wrapper" class="divided">
-      <!-- Header -->
-      <section
-        class="banner style2 fullscreen orient-center content-align-center onload-content-fade-in onload-image-fade-in"
-      >
-        <div class="content">
-          <h1>Sandborne</h1>
-          <p class="major">
-            Sandborne was my team senior capstone project for the 3D Game
-            Development Capstone at UT Austin. I worked with a six person team
-            where I served as the Tools and AI Programmer and Release Engineer.
-            Sandborne allowed me to develop my skills in Unity, Graphics, AI,
-            and Tools Development.
-            <br />
-            We completed Sandborne in one semester, roughly three months, and
-            shipped to itch.io with Windows, MacOS, and Web builds. Below are
-            parts of Sandborne that I worked on. You can also play for yourself!
-          </p>
-          <ul class="actions">
-            <li>
-              <a href="#first" class="button big wide smooth-scroll-middle"
-                >Get Started</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://generalred.itch.io/sandborne"
-                class="button big wide smooth-scroll-middle"
-                target="_blank"
-                >Game Page</a
-              >
-            </li>
-            <li>
-              <a
-                href="/pages/home.html"
-                class="button big wide smooth-scroll-middle"
-                >Back to Home</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="image">
-          <img
-            src="/images/sandborne_banner.webp"
-            alt="A picture of the main character in
-            Sandborne, a small golem, standing in the middle of a desert"
-          />
-        </div>
-      </section>
-
-      <!-- My Contributions -->
-      <section id="first" class="wrapper style1 align-center">
-        <div class="inner">
-          <h2>My Contributions</h2>
-          <div class="index align-left">
-            <!-- Behavior Tree Tool -->
-            <section>
-              <header>
-                <h3>Behavior Tree Tool</h3>
-              </header>
-              <div class="content">
-                <span class="image fit">
-                  <img
-                    src="/images/behavior_tree_tool_boss.webp"
-                    alt="Screenshot
-                  of the Behavior Tree Editor"
-                  />
-                </span>
-                <p>
-                  The Unity Behavior Tree Tool is a full behavior tree
-                  implementation built in Unity complete with a in-editor GUI
-                  built with Unity's UI Toolkit and GraphView. My main
-                  motivation to make this was to aid in the development of
-                  Sandborne. It was instrumental in us implementing the two
-                  multi-staged boss fights, Screwman and Batteryman in the tight
-                  three-month timeline that we were working with.
-                </p>
-                <!-- <ul class="actions stacked">
-                  <li>
-                    <a href="/pages/sandborne.html" class="button"
-                      >Learn More</a
-                    >
-                  </li>
-                </ul> -->
-              </div>
-            </section>
-
-            <!-- Boss Fights -->
-            <section>
-              <header>
-                <h3>Boss Fights</h3>
-              </header>
-              <div class="content">
-                <span class="image fit">
-                  <video autoplay loop controls muted width="100%">
-                    <source
-                      src="/images/screwman_slam.webm"
-                      type="video/webm"
-                    />
-                  </video>
-                </span>
-                <p>
-                  One of the main highlights of Sandborne are the two
-                  multi-stage boss fights, Screwman and Batteryman. I took the
-                  lead on the implementation where I built the Boss Controllers,
-                  Boss AI, and hooked together level scripting to trigger the
-                  bosses. The boss fights were a massive feat for us to complete
-                  across the board, in engineering, art, and design. They proved
-                  to be a big attraction for players and received praise for
-                  their complex and engaging mechanics.
-                </p>
-              </div>
-            </section>
-
-            <!-- Level Scripting -->
-            <section>
-              <header>
-                <h3>Level Scripting</h3>
-              </header>
-              <div class="content">
-                <span class="image fit">
-                  <img
-                    src="/images/level_scripting.webp"
-                    alt="Screenshot showing the tutorial pop ups around Sandborne"
-                  />
-                </span>
-                <p>
-                  Sandborne received lots of positive feedback around its
-                  onboarding and tutorialization. The level scripting was
-                  fundamental to that success. I worked on tutorial markers, the
-                  journals system, and the checkpoints. We gradually developed
-                  these features between playtests as we received more feedback
-                  on how to better guide the player through the game. I saw
-                  better feedback each time we iterated on these systems.
-                </p>
-              </div>
-            </section>
-
-            <!-- Dynamic Controller UI -->
-            <section>
-              <header>
-                <h3>Dynamic Controller UI</h3>
-              </header>
-              <div class="content">
-                <span class="image fit">
-                  <video autoplay loop controls muted width="100%">
-                    <source
-                      src="/images/dynamic_controller_ui.webm"
-                      type="video/webm"
-                    />
-                  </video>
-                </span>
-                <p>
-                  One of our main concerns for Sandborne was making sure it was
-                  accessible to both keyboard-mouse and controllers players. One
-                  of the steps we took to accomplish this was building a dynamic
-                  controls UI system to go hand in hand with our
-                  tutorialization. This system dynamically switches the
-                  controller glyphs based on the player's device.
-                </p>
-              </div>
-            </section>
-
-            <!-- Damage Indicators -->
-            <section>
-              <header>
-                <h3>Damage Indicators</h3>
-              </header>
-              <div class="content">
-                <span class="image fit">
-                  <video autoplay loop controls muted width="100%">
-                    <source
-                      src="/images/damage_indicator.webm"
-                      type="video/webm"
-                    />
-                  </video>
-                </span>
-                <p>
-                  One of our main struggles through the development of Sandborne
-                  was figuring out how to effectively communicate when the
-                  player was taking damage. This was achieved through adding
-                  various sound, diegetic, and visual cues. I worked on the
-                  visual cues in the form of damage indicators and a health bar.
-                  These indicators proved to be very helpful in communicating
-                  damage to the player and we saw a significant improvement in
-                  player reaction once they were implemented.
-                </p>
-              </div>
-            </section>
-
-            <!-- Boss Indicators -->
-            <section>
-              <header>
-                <h3>Boss Indicators</h3>
-              </header>
-              <div class="content">
-                <span class="image fit">
-                  <video autoplay loop controls muted width="100%">
-                    <source
-                      src="/images/boss_indicator.webm"
-                      type="video/webm"
-                    />
-                  </video>
-                </span>
-                <p>
-                  Another struggle we faced in Sandborne's development was the
-                  player losing sight of the boss they were facing. We didn't
-                  want to add a boss lock-on system because this would clash
-                  with the claw mechanic we had in place. Instead, I opted for
-                  boss indicators that show when the boss exits your field of
-                  view. This allowed the player a general sense of where the
-                  boss is without having to look directly at them.
-                </p>
-              </div>
-            </section>
-
-            <!-- Toon Shader -->
-            <section>
-              <header>
-                <h3>Toon Shader</h3>
-              </header>
-              <div class="content">
-                <span class="image fit">
-                  <img
-                    src="/images/sandborne_toon_shader.webp"
-                    alt="Screenshot showcasing the toon shader I developed"
-                  />
-                </span>
-                <p>
-                  Our artists were already tasked with a lot of work and we
-                  wanted to build a more cartoony aesthetic on top of it all. I
-                  offered to relieve them of some work off their hands and
-                  practice my shader skills by building a toon shader for the
-                  environmental elements. This was the first toon shader I ever
-                  made in a Unity's Universal Render Pipeline. It's seen best
-                  here.
-                </p>
-              </div>
-            </section>
-
-            <!-- Force Field Shader -->
-            <section>
-              <header>
-                <h3>Force Field Shader</h3>
-              </header>
-              <div class="content">
-                <span class="image fit">
-                  <video autoplay loop controls muted width="100%">
-                    <source
-                      src="/images/forcefield_shader.webm"
-                      type="video/webm"
-                    />
-                  </video>
-                </span>
-                <p>
-                  The force field shader is almost a pet project that I got to
-                  shoehorn into Sandborne. I wanted to experiment with shaders
-                  more and I had the perfect opportunity when we needed to make
-                  force fields. It took more load off our artists and allowed me
-                  to experiment with shader graph and the Universal Render
-                  Pipeline.
-                </p>
-              </div>
-            </section>
-
-            <!-- Release Engineer -->
-            <section>
-              <header>
-                <h3>Release Engineer</h3>
-              </header>
-              <div class="content">
-                <span class="image fit">
-                  <img
-                    src="/images/sandborne_releases.webp"
-                    alt="Screenshot
-                  showing the consistent releases of Sandborne"
-                  />
-                </span>
-                <p>
-                  I was tasked with being the release engineer of Sandborne in
-                  order to maintain our fever pace and ensure we had a
-                  deliverable each week. We were expected to execute on 1-week
-                  sprints and deliver builds for biweekly playtests. I
-                  maintained this through a well designed release pipeline and
-                  weekly content locks. This allowed us to stay accountable and
-                  consistent to our goals. This process also allowed us to reach
-                  our goal of shipping onto Web, Windows, and MacOS.
-                </p>
-              </div>
-            </section>
-
-            <!-- Batteryman -->
-            <section>
-              <header>
-                <h3>Batteryman</h3>
-              </header>
-              <div class="content">
-                <span class="image fit">
-                  <video autoplay loop controls muted width="100%">
-                    <source src="/images/batteryman.webm" type="video/webm" />
-                  </video>
-                </span>
-                <p>
-                  At the very end of our timeline came Batteryman. It was the
-                  final boss of the game and one of the last things we finished.
-                  Batteryman was the culmination of everything here and it
-                  showed in the final product. Batteryman was designed at the
-                  start, but the implementation had yet to come. We were able to
-                  complete it in little over a week, from art to engineering to
-                  final implementation. I built Batteryman's AI, boss
-                  controller, level scripting around it, and its attacks. I even
-                  made the shader for the laser seen here by iterating on the
-                  force field shader.
-                </p>
-              </div>
-            </section>
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main" class="divided">
+        <!-- Header -->
+        <section
+          class="banner style2 fullscreen orient-center content-align-center onload-content-fade-in onload-image-fade-in"
+        >
+          <div class="content">
+            <h1>Sandborne</h1>
+            <p class="major">
+              Sandborne was my team senior capstone project for the 3D Game
+              Development Capstone at UT Austin. I worked with a six person team
+              where I served as the Tools and AI Programmer and Release
+              Engineer. Sandborne allowed me to develop my skills in Unity,
+              Graphics, AI, and Tools Development.
+              <br />
+              We completed Sandborne in one semester, roughly three months, and
+              shipped to itch.io with Windows, MacOS, and Web builds. Below are
+              parts of Sandborne that I worked on. You can also play for
+              yourself!
+            </p>
+            <ul class="actions">
+              <li>
+                <a href="#first" class="button big wide smooth-scroll-middle"
+                  >Get Started</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://generalred.itch.io/sandborne"
+                  class="button big wide smooth-scroll-middle"
+                  target="_blank"
+                  >Game Page</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/pages/home.html"
+                  class="button big wide smooth-scroll-middle"
+                  >Back to Home</a
+                >
+              </li>
+            </ul>
           </div>
-        </div>
-      </section>
+          <div class="image">
+            <img
+              src="/images/sandborne_banner.webp"
+              alt="A picture of the main character in
+              Sandborne, a small golem, standing in the middle of a desert"
+            />
+          </div>
+        </section>
 
-      <!-- Footer -->
-      <footer class="wrapper style1 align-center">
-        <div class="inner">
-          <h2>Connect with me!</h2>
-          <ul class="icons">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/adhan-razzaque/"
-                class="icon brands style2 fa-linkedin-in"
-                ><span class="label">LinkedIn</span></a
-              >
-            </li>
-            <li>
-              <a
-                href="https://generalred.itch.io/"
-                class="icon brands style2 fa-brands fa-itch-io"
-                ><span class="label">Itch.io</span></a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/adhan-razzaque"
-                class="icon brands style2 fa-brands fa-github"
-                ><span class="label">Github</span></a
-              >
-            </li>
-            <li>
-              <a
-                href="https://twitter.com/TheGeneralRed"
-                class="icon brands style2 fa-brands fa-x-twitter"
-                ><span class="label">X (formerly known Twitter)</span></a
-              >
-            </li>
-          </ul>
-          <p>
-            &copy; Adhan Razzaque. Design:
-            <a href="https://html5up.net">HTML5 UP</a>.
-          </p>
+        <!-- My Contributions -->
+        <section id="first" class="main style1 align-center">
+          <div class="inner">
+            <h2>My Contributions</h2>
+            <div class="index align-left">
+              <!-- Behavior Tree Tool -->
+              <section>
+                <header>
+                  <h3>Behavior Tree Tool</h3>
+                </header>
+                <div class="content">
+                  <span class="image fit">
+                    <img
+                      src="/images/behavior_tree_tool_boss.webp"
+                      alt="Screenshot
+                    of the Behavior Tree Editor"
+                    />
+                  </span>
+                  <p>
+                    The Unity Behavior Tree Tool is a full behavior tree
+                    implementation built in Unity complete with a in-editor GUI
+                    built with Unity's UI Toolkit and GraphView. My main
+                    motivation to make this was to aid in the development of
+                    Sandborne. It was instrumental in us implementing the two
+                    multi-staged boss fights, Screwman and Batteryman in the
+                    tight three-month timeline that we were working with.
+                  </p>
+                  <!-- <ul class="actions stacked">
+                    <li>
+                      <a href="/pages/sandborne.html" class="button"
+                        >Learn More</a
+                      >
+                    </li>
+                  </ul> -->
+                </div>
+              </section>
+
+              <!-- Boss Fights -->
+              <section>
+                <header>
+                  <h3>Boss Fights</h3>
+                </header>
+                <div class="content">
+                  <span class="image fit">
+                    <video autoplay loop controls muted width="100%">
+                      <source
+                        src="/images/screwman_slam.webm"
+                        type="video/webm"
+                      />
+                    </video>
+                  </span>
+                  <p>
+                    One of the main highlights of Sandborne are the two
+                    multi-stage boss fights, Screwman and Batteryman. I took the
+                    lead on the implementation where I built the Boss
+                    Controllers, Boss AI, and hooked together level scripting to
+                    trigger the bosses. The boss fights were a massive feat for
+                    us to complete across the board, in engineering, art, and
+                    design. They proved to be a big attraction for players and
+                    received praise for their complex and engaging mechanics.
+                  </p>
+                </div>
+              </section>
+
+              <!-- Level Scripting -->
+              <section>
+                <header>
+                  <h3>Level Scripting</h3>
+                </header>
+                <div class="content">
+                  <span class="image fit">
+                    <img
+                      src="/images/level_scripting.webp"
+                      alt="Screenshot showing the tutorial pop ups around Sandborne"
+                    />
+                  </span>
+                  <p>
+                    Sandborne received lots of positive feedback around its
+                    onboarding and tutorialization. The level scripting was
+                    fundamental to that success. I worked on tutorial markers,
+                    the journals system, and the checkpoints. We gradually
+                    developed these features between playtests as we received
+                    more feedback on how to better guide the player through the
+                    game. I saw better feedback each time we iterated on these
+                    systems.
+                  </p>
+                </div>
+              </section>
+
+              <!-- Dynamic Controller UI -->
+              <section>
+                <header>
+                  <h3>Dynamic Controller UI</h3>
+                </header>
+                <div class="content">
+                  <span class="image fit">
+                    <video autoplay loop controls muted width="100%">
+                      <source
+                        src="/images/dynamic_controller_ui.webm"
+                        type="video/webm"
+                      />
+                    </video>
+                  </span>
+                  <p>
+                    One of our main concerns for Sandborne was making sure it
+                    was accessible to both keyboard-mouse and controllers
+                    players. One of the steps we took to accomplish this was
+                    building a dynamic controls UI system to go hand in hand
+                    with our tutorialization. This system dynamically switches
+                    the controller glyphs based on the player's device.
+                  </p>
+                </div>
+              </section>
+
+              <!-- Damage Indicators -->
+              <section>
+                <header>
+                  <h3>Damage Indicators</h3>
+                </header>
+                <div class="content">
+                  <span class="image fit">
+                    <video autoplay loop controls muted width="100%">
+                      <source
+                        src="/images/damage_indicator.webm"
+                        type="video/webm"
+                      />
+                    </video>
+                  </span>
+                  <p>
+                    One of our main struggles through the development of
+                    Sandborne was figuring out how to effectively communicate
+                    when the player was taking damage. This was achieved through
+                    adding various sound, diegetic, and visual cues. I worked on
+                    the visual cues in the form of damage indicators and a
+                    health bar. These indicators proved to be very helpful in
+                    communicating damage to the player and we saw a significant
+                    improvement in player reaction once they were implemented.
+                  </p>
+                </div>
+              </section>
+
+              <!-- Boss Indicators -->
+              <section>
+                <header>
+                  <h3>Boss Indicators</h3>
+                </header>
+                <div class="content">
+                  <span class="image fit">
+                    <video autoplay loop controls muted width="100%">
+                      <source
+                        src="/images/boss_indicator.webm"
+                        type="video/webm"
+                      />
+                    </video>
+                  </span>
+                  <p>
+                    Another struggle we faced in Sandborne's development was the
+                    player losing sight of the boss they were facing. We didn't
+                    want to add a boss lock-on system because this would clash
+                    with the claw mechanic we had in place. Instead, I opted for
+                    boss indicators that show when the boss exits your field of
+                    view. This allowed the player a general sense of where the
+                    boss is without having to look directly at them.
+                  </p>
+                </div>
+              </section>
+
+              <!-- Toon Shader -->
+              <section>
+                <header>
+                  <h3>Toon Shader</h3>
+                </header>
+                <div class="content">
+                  <span class="image fit">
+                    <img
+                      src="/images/sandborne_toon_shader.webp"
+                      alt="Screenshot showcasing the toon shader I developed"
+                    />
+                  </span>
+                  <p>
+                    Our artists were already tasked with a lot of work and we
+                    wanted to build a more cartoony aesthetic on top of it all.
+                    I offered to relieve them of some work off their hands and
+                    practice my shader skills by building a toon shader for the
+                    environmental elements. This was the first toon shader I
+                    ever made in a Unity's Universal Render Pipeline. It's seen
+                    best here.
+                  </p>
+                </div>
+              </section>
+
+              <!-- Force Field Shader -->
+              <section>
+                <header>
+                  <h3>Force Field Shader</h3>
+                </header>
+                <div class="content">
+                  <span class="image fit">
+                    <video autoplay loop controls muted width="100%">
+                      <source
+                        src="/images/forcefield_shader.webm"
+                        type="video/webm"
+                      />
+                    </video>
+                  </span>
+                  <p>
+                    The force field shader is almost a pet project that I got to
+                    shoehorn into Sandborne. I wanted to experiment with shaders
+                    more and I had the perfect opportunity when we needed to
+                    make force fields. It took more load off our artists and
+                    allowed me to experiment with shader graph and the Universal
+                    Render Pipeline.
+                  </p>
+                </div>
+              </section>
+
+              <!-- Release Engineer -->
+              <section>
+                <header>
+                  <h3>Release Engineer</h3>
+                </header>
+                <div class="content">
+                  <span class="image fit">
+                    <img
+                      src="/images/sandborne_releases.webp"
+                      alt="Screenshot
+                    showing the consistent releases of Sandborne"
+                    />
+                  </span>
+                  <p>
+                    I was tasked with being the release engineer of Sandborne in
+                    order to maintain our fever pace and ensure we had a
+                    deliverable each week. We were expected to execute on 1-week
+                    sprints and deliver builds for biweekly playtests. I
+                    maintained this through a well designed release pipeline and
+                    weekly content locks. This allowed us to stay accountable
+                    and consistent to our goals. This process also allowed us to
+                    reach our goal of shipping onto Web, Windows, and MacOS.
+                  </p>
+                </div>
+              </section>
+
+              <!-- Batteryman -->
+              <section>
+                <header>
+                  <h3>Batteryman</h3>
+                </header>
+                <div class="content">
+                  <span class="image fit">
+                    <video autoplay loop controls muted width="100%">
+                      <source src="/images/batteryman.webm" type="video/webm" />
+                    </video>
+                  </span>
+                  <p>
+                    At the very end of our timeline came Batteryman. It was the
+                    final boss of the game and one of the last things we
+                    finished. Batteryman was the culmination of everything here
+                    and it showed in the final product. Batteryman was designed
+                    at the start, but the implementation had yet to come. We
+                    were able to complete it in little over a week, from art to
+                    engineering to final implementation. I built Batteryman's
+                    AI, boss controller, level scripting around it, and its
+                    attacks. I even made the shader for the laser seen here by
+                    iterating on the force field shader.
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Sidebar -->
+      <div id="sidebar" class="">
+        <div class="inner" style="">
+          <!-- Menu -->
+          <nav id="menu">
+            <header class="major">
+              <h2>Menu</h2>
+            </header>
+            <ul>
+              <li><a href="/pages/home.html">Homepage</a></li>
+              <li><a href="/pages/graphics.html">Graphics</a></li>
+              <li><a href="/pages/tools.html">Tools</a></li>
+              <li><a href="/pages/projects.html">Projects</a></li>
+            </ul>
+          </nav>
+
+          <!-- Footer -->
+          <footer class="main style1 align-center">
+            <div class="inner">
+              <h2>Connect with me!</h2>
+              <ul class="icons">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/adhan-razzaque/"
+                    class="icon brands style2 fa-linkedin-in"
+                    ><span class="label">LinkedIn</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://generalred.itch.io/"
+                    class="icon brands style2 fa-brands fa-itch-io"
+                    ><span class="label">Itch.io</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/adhan-razzaque"
+                    class="icon brands style2 fa-brands fa-github"
+                    ><span class="label">Github</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/TheGeneralRed"
+                    class="icon brands style2 fa-brands fa-x-twitter"
+                    ><span class="label">X (formerly known Twitter)</span></a
+                  >
+                </li>
+              </ul>
+              <p>
+                &copy; Adhan Razzaque. Design:
+                <a href="https://html5up.net">HTML5 UP</a>.
+              </p>
+            </div>
+          </footer>
         </div>
-      </footer>
+        <a href="#sidebar" class="toggle">Toggle</a>
+      </div>
     </div>
-
     <!-- Scripts -->
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/jquery.scrollex.min.js"></script>

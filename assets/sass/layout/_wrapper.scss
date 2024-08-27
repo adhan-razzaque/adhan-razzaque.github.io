@@ -4,15 +4,15 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-/* Wrapper */
+/* main */
 
-	@mixin wrapper-color($n) {
+	@mixin main-color($n) {
 		> .color#{$n} {
 			background-color: _palette(color#{$n});
 		}
 	}
 
-	#wrapper {
+	#main {
 		background-color: inherit;
 		width: 100%;
 		overflow-x: hidden;
@@ -21,13 +21,13 @@
 			@include color(invert);
 		}
 
-		@include wrapper-color(1);
-		@include wrapper-color(2);
-		@include wrapper-color(3);
-		@include wrapper-color(4);
-		@include wrapper-color(5);
-		@include wrapper-color(6);
-		@include wrapper-color(7);
+		@include main-color(1);
+		@include main-color(2);
+		@include main-color(3);
+		@include main-color(4);
+		@include main-color(5);
+		@include main-color(6);
+		@include main-color(7);
 
 		&.divided {
 			> * {

@@ -4,9 +4,9 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-/* Wrapper (style1) */
+/* main (style1) */
 
-	.wrapper.style1 {
+	.main.style1 {
 		> .inner {
 			@include padding(_size(padding, default), _size(padding, default) * 0.5);
 			margin: 0 auto;
@@ -47,9 +47,9 @@
 		}
 	}
 
-/* Wrapper (style2) */
+/* main (style2) */
 
-	.wrapper.style2 {
+	.main.style2 {
 		padding: _size(padding, default);
 		background-color: _palette(bg-alt);
 
@@ -105,8 +105,8 @@
 		}
 	}
 
-	#wrapper {
-		> .wrapper.style2 {
+	#main {
+		> .main.style2 {
 			&.invert {
 				&:not(.color1):not(.color2):not(.color3):not(.color4):not(.color5):not(.color6):not(.color7) {
 					background-color: _palette(invert, bg-alt);
